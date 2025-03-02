@@ -1,0 +1,193 @@
+phenix.refine summary
+
+Directory: /home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3mwb/Manual-refinemt/Step0_plain_refin/Refine_1
+Version: 1.20.1-4487
+Parameter file: /home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3mwb/Manual-refinemt/Step0_plain_refin/Refine_1/3mwb_Step0_refine_1.eff
+
+
+                    start         final
+  ---------------------------------------
+  R-work:           0.2357        0.1928
+  R-free:           0.2496        0.2337
+  RMS(angles):      1.40           0.86
+  RMS(bonds):       0.013          0.007
+
+
+REFERENCE:
+
+Afonine PV, Grosse-Kunstleve RW, Echols N, Headd JJ, Moriarty NW, Mustyakimov
+M, Terwilliger TC, Urzhumtsev A, Zwart PH, Adams PD. (2012) Towards automated
+crystallographic structure refinement with phenix.refine. Acta Crystallogr D
+Biol Crystallogr 68:352-67.
+
+
+============================== Experimental data ==============================
+
+  Resolution range           =  42.282 - 1.999 (2.070 - 1.999)
+  Number of reflections      =    41623 (4004)
+     after outlier rejection =    41623 (4004)
+  Completeness               =  98.14% (95.77%)
+  R-work                     =   0.1928 (0.2300)
+  R-free                     =   0.2337 (0.3008)
+  By resolution bin:
+   BIN  RESOLUTION RANGE  COMPL.    NWORK NFREE   RWORK  RFREE  CCWORK CCFREE
+     1   42.28 -    4.30    1.00     4169   255  0.1633 0.1766   0.938  0.936
+     2    4.30 -    3.42    1.00     4044   221  0.1702 0.2240   0.925  0.883
+     3    3.42 -    2.99    1.00     4061   191  0.1950 0.2299   0.903  0.846
+     4    2.99 -    2.71    1.00     4043   208  0.2121 0.2637   0.875  0.821
+     5    2.71 -    2.52    1.00     3985   215  0.2074 0.2577   0.885  0.806
+     6    2.52 -    2.37    1.00     3992   221  0.2059 0.2746   0.885  0.787
+     7    2.37 -    2.25    0.95     3816   186  0.2367 0.2915   0.849  0.755
+     8    2.25 -    2.15    0.92     3666   168  0.2530 0.3425   0.802  0.615
+     9    2.15 -    2.07    1.00     3928   250  0.2108 0.2751   0.869  0.740
+    10    2.07 -    2.00    0.96     3813   191  0.2300 0.3008   0.838  0.735
+
+              ----------Residues with poor real-space CC----------             
+
+  atom                   b_iso   occ  2Fo-Fc  Fmodel     CC
+   A  28  ASP            79.80  1.00    1.18    2.01  0.750
+   A 144  ASP           103.51  1.00    0.88    1.59  0.745
+   A 145  ASP            92.62  1.00    0.73    1.70  0.724
+   A 236  GLY            70.77  1.00    1.20    1.96  0.733
+   A 237  GLN            84.38  1.00    1.04    1.68  0.687
+   A 238  TYR            68.00  1.00    1.15    1.67  0.716
+   A 239  LEU            65.60  1.00    1.05    1.81  0.769
+   B  74  GLY            72.00  1.00    1.48    2.16  0.787
+   B  75  GLN            82.41  1.00    1.01    1.85  0.647
+   B  76  GLU            67.77  1.00    1.32    2.08  0.782
+   B 144  ASP            85.61  1.00    0.88    1.76  0.568
+   B 239  LEU            52.10  1.00    1.17    1.98  0.692
+   B 240  GLY            57.68  1.00    1.22    2.24  0.753
+  21 residues (including water) with CC(Fc,2mFo-DFc) < 0.8
+
+                 ----------Suspicious water molecules----------                
+
+  Waters in poor density:
+  atom                   b_iso   occ  2Fo-Fc   Fo-Fc    Anom     CC
+   A 383    O            41.12  1.00    0.98   -1.34     ---  0.802
+   A 437    O            43.84  1.00    1.25   -0.27     ---  0.763
+   A 451    O            39.75  1.00    1.75    0.75     ---  0.773
+   B 418    O            43.76  1.00    1.25   -0.52     ---  0.744
+   B 436    O            41.50  1.00    1.57    0.59     ---  0.778
+   B 444    O            34.94  1.00    1.68   -0.74     ---  0.792
+   B 445    O            49.17  1.00    1.11    0.30     ---  0.712
+   B 454    O            57.47  1.00    0.78    0.40     ---  0.717
+   B 461    O            42.83  1.00    1.32   -0.30     ---  0.787
+
+  Poorly ordered waters:     9
+
+=============================== Model properties ==============================
+
+   Number of:
+     all atoms      : 4918
+     H or D atoms   : 0
+     chains         : 5
+     a.a. residues  : 611
+     nucleotides    : 0
+     water          : 294
+     other (ligands): 1
+   Ligands: MG :1
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.057 (Z=  1.686)
+  Mean delta:    0.007 (Z=  0.317)
+
+                        ----------Bond angles----------                        
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    8.438 (Z=  3.224)
+  Mean delta:    0.859 (Z=  0.467)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   A 242  TYR  CA     
+   A 242  TYR  C      
+   A 243  PHE  N      
+   A 243  PHE  CA        180.00   158.14    21.86  5.00e+00  1.91e+01   4.4*sigma
+   B 242  TYR  CA     
+   B 242  TYR  C      
+   B 243  PHE  N      
+   B 243 APHE  CA        180.00   157.47    22.53  5.00e+00  2.03e+01   4.5*sigma
+
+  Min. delta:    0.004
+  Max. delta:   87.501
+  Mean delta:   12.698
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.412
+  Mean delta:    0.056
+
+                       ----------Planar groups----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.075
+  Mean delta:    0.009
+
+============================ Molprobity validation ============================
+
+
+  Geometry Restraints Library: GeoStd + Monomer Library + CDL v1.2
+  Deviations from Ideal Values - rmsd. rmsZ for bonds and angles.
+    Bond      :  0.007   0.057   4734  Z= 0.317
+    Angle     :  0.859   8.438   6490  Z= 0.467
+    Chirality :  0.056   0.412    756
+    Planarity :  0.009   0.075    866
+    Dihedral  : 12.698  87.501   1710
+    Min Nonbonded Distance : 2.146
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 4.24
+    Ramachandran Plot:
+      Outliers :  0.17 %
+      Allowed  :  1.49 %
+      Favored  : 98.34 %
+    Rotamer Outliers :  2.28 %
+    Cbeta Deviations :  0.00 %
+    Peptide Plane:
+      Cis-proline     : 4.65 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole: -0.74 (0.30), residues: 615
+    helix: -1.25 (0.30), residues: 208
+    sheet:  0.10 (0.41), residues: 132
+    loop :  0.08 (0.33), residues: 275
+
+                     ----------Asn/Gln/His flips----------                     
+
+  No backwards Asn/Gln/His sidechains found.
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.17 %
+                favored =  98.34 %
+  Rotamer outliers      =   2.28 %
+  C-beta deviations     =     0
+  Clashscore            =   4.24
+  RMS(bonds)            =   0.0071
+  RMS(angles)           =   0.86
+  MolProbity score      =   1.48
+  Resolution            =   2.00
+  R-work                =   0.1928
+  R-free                =   0.2337

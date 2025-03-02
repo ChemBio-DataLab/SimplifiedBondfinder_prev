@@ -1,0 +1,40 @@
+,6pgd_Step0_plain_refine_3.pdb
+Wavelength,
+Resolution range,33.67  - 1.5 (1.53  - 1.5)
+Space group,P 21 21 21
+Unit cell,46.698 65.24 97.195 90 90 90
+Total reflections,
+Unique reflections,47808 (2290)
+Multiplicity,
+Completeness (%),99.05 (83.55)
+Mean I/sigma(I),
+Wilson B-factor,9.81
+R-merge,
+R-meas,
+R-pim,
+CC1/2,
+CC*,
+Reflections used in refinement,47808 (2290)
+Reflections used for R-free,2353 (109)
+R-work,0.1313 (0.2108)
+R-free,0.1534 (0.2544)
+CC(work),
+CC(free),
+Number of non-hydrogen atoms,2908
+  macromolecules,4895
+  ligands,77
+  solvent,414
+Protein residues,305
+Nucleic acid bases,
+RMS(bonds),0.005
+RMS(angles),0.86
+Ramachandran favored (%),96.04
+Ramachandran allowed (%),3.96
+Ramachandran outliers (%),0.00
+Rotamer outliers (%),0.00
+Clashscore,2.21
+Average B-factor,12.58
+  macromolecules,10.64
+  ligands,22.00
+  solvent,23.92
+Number of TLS groups,

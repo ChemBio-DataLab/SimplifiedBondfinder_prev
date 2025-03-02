@@ -1,0 +1,31 @@
+LIBTBX_BASE_DIR = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/Paper_Git/6pgd_Refinment/6pgd-NOS-Refinment"
+job {
+  job_id = 2
+  app_id = ReadySet
+  program_name = None
+  title = """[ phenix.ready_set ]"""
+  directory = "$(LIBTBX_BASE_DIR)/ReadySet_2"
+  process_type = None
+  hostname = None
+  queue_id = None
+  citation = None
+  input_file {
+    file_name = None
+    file_type = None
+    param_name = None
+  }
+  output_file {
+    file_name = "$(LIBTBX_BASE_DIR)/ReadySet_2/6pgd_final.updated.updated.pdb"
+    file_type = Processed PDB file
+  }
+  output_file {
+    file_name = "$(LIBTBX_BASE_DIR)/ReadySet_2/6pgd_final.updated.ligands.cif"
+    file_type = Ligand restraints
+  }
+  statistic {
+    stat_name = None
+    stat_value = None
+  }
+  user_comments = None
+  deleted = False
+}

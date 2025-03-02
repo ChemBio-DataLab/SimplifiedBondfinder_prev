@@ -1,0 +1,81 @@
+LIBTBX_BASE_DIR = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3g2k/manual-refine/Step0_just_refine"
+job {
+  job_id = 1
+  app_id = Refine
+  program_name = None
+  title = """[ phenix.refine ]"""
+  directory = "$(LIBTBX_BASE_DIR)/Refine_1"
+  process_type = None
+  hostname = None
+  queue_id = None
+  citation = None
+  input_file {
+    file_name = "$(LIBTBX_BASE_DIR)/3g2k_final.pdb"
+    file_type = Input model
+    param_name = refinement.input.pdb.file_name
+  }
+  input_file {
+    file_name = "$(LIBTBX_BASE_DIR)/3g2k_final.mtz"
+    file_type = Reflections file
+    param_name = refinement.input.xray_data.file_name
+  }
+  input_file {
+    file_name = "$(LIBTBX_BASE_DIR)/3g2k_final.mtz"
+    file_type = File with R(free) flags
+    param_name = refinement.input.xray_data.r_free_flags.file_name
+  }
+  output_file {
+    file_name = "Step0_just_refine_refine_1.eff"
+    file_type = Effective parameters for this run
+  }
+  output_file {
+    file_name = "Step0_just_refine_refine_1.log"
+    file_type = phenix.refine log file
+  }
+  output_file {
+    file_name = "Step0_just_refine_refine_1.pdb"
+    file_type = Refined model
+  }
+  output_file {
+    file_name = "Step0_just_refine_refine_1.geo"
+    file_type = Geometry restraints before refinement
+  }
+  output_file {
+    file_name = "Step0_just_refine_refine_1_info.txt"
+    file_type = Run summary in text format
+  }
+  output_file {
+    file_name = "Step0_just_refine_refine_1.cif"
+    file_type = mmCIF model for PDB deposition
+  }
+  output_file {
+    file_name = "Step0_just_refine_refine_1.mtz"
+    file_type = Map coefficients for Coot
+  }
+  statistic {
+    stat_name = R-work
+    stat_value = 0.1608
+  }
+  statistic {
+    stat_name = R-free
+    stat_value = 0.1931
+  }
+  statistic {
+    stat_name = RMSbonds
+    stat_value = 0.007
+  }
+  statistic {
+    stat_name = RMSangles
+    stat_value = 0.798
+  }
+  statistic {
+    stat_name = Clashscore
+    stat_value = 0.8
+  }
+  statistic {
+    stat_name = MolProbity score
+    stat_value = 0.882
+  }
+  user_comments = None
+  deleted = False
+}

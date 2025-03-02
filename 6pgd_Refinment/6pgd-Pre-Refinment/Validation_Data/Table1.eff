@@ -1,0 +1,39 @@
+debug = False
+table_one {
+  structure {
+    name = "6pgd_Step0_plain_refine_3.pdb"
+    pdb_file = "6pgd_Step0_plain_refine_3.pdb"
+    mtz_file = "6pgd_Step0_plain_refine_3.mtz"
+    data_labels = None
+    r_free_flags_label = None
+    wavelength = None
+    high_resolution = None
+    n_bins = None
+    cif_file = None
+    cif_directory = None
+    data_type = *xray neutron
+    unmerged_data = None
+    unmerged_labels = None
+    use_internal_variance = False
+    enable_twinning = True
+    twin_law = None
+    count_anomalous_pairs_separately = False
+  }
+  processing {
+    re_compute_r_factors = True
+    ignore_model_header = False
+    n_bins = None
+    ligand_selection = None
+    debug = False
+  }
+  multiprocessing {
+  }
+  output {
+    directory = None
+    show_missing_fields = True
+    format = *txt *csv *rtf
+    base_name = "Table1"
+    verbose = "True"
+    text_field_separation = 2
+  }
+}

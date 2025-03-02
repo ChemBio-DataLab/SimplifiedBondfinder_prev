@@ -1,0 +1,54 @@
+
+  INPUT
+  
+    Reading options from /home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/Paper_Git/6t3x_Refinment/.phenix/project_data/ready_set_1.eff
+    Writing effective parameters to 6t3xNOS-All_at_once_refine_4.eff
+    Reading ligand cache from environmental variable
+      READY_SET_LIGAND_CACHE_DIRECTORY
+        - "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/Paper_Git/6t3x_Refinment/.phenix/tmp"
+
+  Preparation for phenix.refine
+
+    Generate "edits" from PDB LINK records
+    
+
+    Add hydrogens
+      - to protein model using phenix.reduce
+      - to ligands using eLBOW, phenix.elbow
+
+  Some of the input hydrogens have names that are not correct for the input
+  ligand code.  These hydrogens have been removed from the input!
+
+  You must use the output PDB file!
+
+  No unknown residues
+
+  Reduce warnings
+*WARNING*: Residues LYS 170  and GLY 1052  in chain  A appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues LYS 170  and GLY 1052  in chain  A appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues ALA 31  and ASN 37  in chain  C appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues ALA 31  and ASN 37  in chain  C appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues LYS 92  and PRO 96  in chain  C appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues LYS 92  and PRO 96  in chain  C appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues SER 125  and GLY 128  in chain  C appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues SER 125  and GLY 128  in chain  C appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues LYS 170  and GLY 1057  in chain  C appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues LYS 170  and GLY 1057  in chain  C appear unbonded 
+            and will be treated as a chain break
+
+
+  OUTPUT
+  
+    Writing link edits to 6t3xNOS-All_at_once_refine_4.link.edits
+    Writing model to 6t3xNOS-All_at_once_refine_4.updated.pdb
+Optimize H/D positions using phenix.geometry_minimization
+phenix.geometry_minimization "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/Paper_Git/6t3x_Refinment/ReadySet_1/6t3xNOS-All_at_once_refine_4.updated.pdb" use_neutron_distances=False output_file_name_prefix=6t3xNOS-All_at_once_refine_4.updated selection="element H or element D" write_geo_file=False fix_rotamer_outliers=False silent=True correct_hydrogens=True

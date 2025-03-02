@@ -1,0 +1,40 @@
+
+  INPUT
+  
+    Reading options from /home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/Paper_Git/3mwb_Refinment/3mwb-NOS-Refinment/.phenix/project_data/ready_set_1.eff
+    Writing effective parameters to 3mwb_final.eff
+    Reading ligand cache from environmental variable
+      READY_SET_LIGAND_CACHE_DIRECTORY
+        - "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/Paper_Git/3mwb_Refinment/3mwb-NOS-Refinment/.phenix/tmp"
+
+  Preparation for phenix.refine
+
+    Generate "edits" from PDB LINK records
+    
+
+    Add hydrogens
+      - to protein model using phenix.reduce
+      - to ligands using eLBOW, phenix.elbow
+  No unknown residues
+
+  Reduce warnings
+*WARNING*: Residues THR 235  and LEU 239  in chain  B appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues THR 235  and LEU 239  in chain  B appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues GLY 309  and PHE 311  in chain  B appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues PHE 311  and PHE 312  in chain  B appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues GLY 309  and PHE 311  in chain  B appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues PHE 311  and PHE 312  in chain  B appear unbonded 
+            and will be treated as a chain break
+
+
+  OUTPUT
+  
+    Writing link edits to 3mwb_final.link.edits
+    Writing model to 3mwb_final.updated.pdb
+Optimize H/D positions using phenix.geometry_minimization
+phenix.geometry_minimization "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/Paper_Git/3mwb_Refinment/3mwb-NOS-Refinment/ReadySet_1/3mwb_final.updated.pdb" use_neutron_distances=False output_file_name_prefix=3mwb_final.updated selection="element H or element D" write_geo_file=False fix_rotamer_outliers=False silent=True correct_hydrogens=True

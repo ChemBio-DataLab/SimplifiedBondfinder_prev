@@ -1,0 +1,36 @@
+                                                      3g2k-Step0
+                    Wavelength                                  
+              Resolution range   25.25  - 2.001 (2.072  - 2.001)
+                   Space group                         P 43 21 2
+                     Unit cell  128.769 128.769 116.723 90 90 90
+             Total reflections                                  
+            Unique reflections                      65170 (6195)
+                  Multiplicity                                  
+              Completeness (%)                     97.88 (94.45)
+               Mean I/sigma(I)                                  
+               Wilson B-factor                             35.21
+                       R-merge                                  
+                        R-meas                                  
+                         R-pim                                  
+                         CC1/2                                  
+Reflections used in refinement                      65158 (6196)
+   Reflections used for R-free                        3312 (315)
+                        R-work                   0.1607 (0.2223)
+                        R-free                   0.1930 (0.2649)
+  Number of non-hydrogen atoms                              6797
+                macromolecules                              6604
+                       ligands                                26
+                       solvent                               167
+              Protein residues                               810
+                    RMS(bonds)                             0.007
+                   RMS(angles)                              0.80
+      Ramachandran favored (%)                             97.63
+      Ramachandran allowed (%)                              2.25
+     Ramachandran outliers (%)                              0.12
+          Rotamer outliers (%)                              1.14
+                    Clashscore                              0.83
+              Average B-factor                             40.17
+                macromolecules                             40.29
+                       ligands                             33.92
+                       solvent                             36.44
+          Number of TLS groups                                 1

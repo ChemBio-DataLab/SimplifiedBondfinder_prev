@@ -1,0 +1,35 @@
+LIBTBX_BASE_DIR = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3g2k/manual-refine/Step0_just_refine/Data"
+job {
+  job_id = 1
+  app_id = TableOne
+  program_name = None
+  title = """3g2k-Step0"""
+  directory = "$(LIBTBX_BASE_DIR)/table1_1"
+  process_type = None
+  hostname = None
+  queue_id = None
+  citation = None
+  input_file {
+    file_name = None
+    file_type = None
+    param_name = None
+  }
+  output_file {
+    file_name = "Table1.txt"
+    file_type = Table as 'txt'
+  }
+  output_file {
+    file_name = "Table1.csv"
+    file_type = Table as 'csv'
+  }
+  output_file {
+    file_name = "Table1.rtf"
+    file_type = Table as 'rtf'
+  }
+  statistic {
+    stat_name = None
+    stat_value = None
+  }
+  user_comments = None
+  deleted = False
+}

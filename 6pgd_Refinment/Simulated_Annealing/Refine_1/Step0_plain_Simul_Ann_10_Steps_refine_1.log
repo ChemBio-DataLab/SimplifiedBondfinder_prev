@@ -1,0 +1,220 @@
+# Date 2025-02-27 Time 10:39:42 CET +0100 (1740649182.85 s)
+#phil __OFF__
+
+Command line arguments: "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/6pgd/Manual_refinmet/Step0_plain_Simul_Ann_10_Steps/.phenix/project_data/refine_1.eff" "--overwrite"
+
+HOSTNAME = hel06
+USER = sbazzi
+PID = 2335018
+
+-------------------------------------------------------------------------------
+  PHENIX: Python-based Hierarchical ENvironment for Integrated Xtallography
+  Version: 1.20.1
+  Release tag: 4487
+  Platform: intel-linux-2.6-x86_64
+  User: sbazzi
+-------------------------------------------------------------------------------
+
+              phenix.refine: Macromolecular Structure Refinement
+
+-------------------------------------------------------------------------------
+
+Phenix developers include:
+  Paul Adams, Pavel Afonine, Gabor Bunkoczi, Tom Burnley, Vincent Chen, 
+  Youval Dar, Ian Davis, Eli Draizen, Nathaniel Echols, Richard Gildea, 
+  Piet Gros, Ralf Grosse-Kunstleve, Jeffrey Headd, Bradley Hintze, Li-Wei Hung, 
+  Tom Ioerger, Dorothee Liebschner, Airlie McCoy, Erik McKee, Nigel Moriarty, 
+  Robert Oeffner, Billy Poon, Randy Read, Jane Richardson, David Richardson, 
+  Jim Sacchettini, Nicholas Sauter, Oleg Sobolev, Laurent Storoni, 
+  Tom Terwilliger, Christopher Williams, Peter Zwart
+Phenix home page:
+  http://www.phenix-online.org/
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Phenix components are copyrighted by:
+  - Lawrence Berkeley National Laboratory
+  - Los Alamos National Laboratory
+  - University of Cambridge
+  - Duke University
+  - Texas Agricultural Experiment Station &
+    Texas Engineering Experiment Station
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Major third-party components of Phenix include:
+    Python, wxWidgets, wxPython, Boost, SCons, Clipper,
+    CCP4 Monomer Library, CCP4 I/O libraries, PyCifRW, FFTPACK, L-BFGS,
+    MUSCLE, KSDSSP, PULCHRA, ANTLRv3
+  Enter phenix.acknowledgments for details.
+-------------------------------------------------------------------------------
+
+Processing inputs. This may take a minute or two.
+
+Working crystal symmetry after inspecting all inputs:
+  Unit cell: (46.698, 65.24, 97.195, 90, 90, 90)
+  Space group: P 21 21 21 (No. 19)
+
+Input data summary:
+  Miller array info: /home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/6pgd/Manual_refinmet/Step0_plain_Simul_Ann_10_Steps/6pgd_final.mtz:FP,SIGFP,systematic_absences_eliminated
+  Observation type: xray.amplitude
+  Type of data: double, size=47811
+  Type of sigmas: double, size=47811
+  Number of Miller indices: 47811
+  Anomalous flag: False
+  Unit cell: (46.698, 65.24, 97.195, 90, 90, 90)
+  Space group: P 21 21 21 (No. 19)
+  Systematic absences: 0
+  Centric reflections: 4739
+  Resolution range: 35.3692 1.50043
+  Completeness in resolution range: 0.990573
+  Completeness with d_max=infinity: 0.99047
+  Wavelength: 0.9537
+
+Free-R flags summary:
+  Miller array info: /home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/6pgd/Manual_refinmet/Step0_plain_Simul_Ann_10_Steps/6pgd_final.mtz:FREE
+  Observation type: None
+  Type of data: bool, size=47811
+  Type of sigmas: None
+  Number of Miller indices: 47811
+  Anomalous flag: False
+  Unit cell: (46.698, 65.24, 97.195, 90, 90, 90)
+  Space group: P 21 21 21 (No. 19)
+  Systematic absences: 0
+  Centric reflections: 4739
+  Resolution range: 35.3692 1.50043
+  Completeness in resolution range: 0.990573
+  Completeness with d_max=infinity: 0.99047
+  Wavelength: 0.0000
+  Test (R-free) flag value: 0
+  Number of work/free reflections by resolution:
+                                           work  free  %free
+    bin  1: 35.3791 -  3.2318 [5096/5098]  4832   264   5.2%
+    bin  2:  3.2318 -  2.5654 [4888/4888]  4664   224   4.6%
+    bin  3:  2.5654 -  2.2412 [4846/4846]  4625   221   4.6%
+    bin  4:  2.2412 -  2.0363 [4806/4807]  4572   234   4.9%
+    bin  5:  2.0363 -  1.8904 [4825/4825]  4565   260   5.4%
+    bin  6:  1.8904 -  1.7789 [4765/4765]  4530   235   4.9%
+    bin  7:  1.7789 -  1.6898 [4804/4804]  4555   249   5.2%
+    bin  8:  1.6898 -  1.6163 [4738/4738]  4498   240   5.1%
+    bin  9:  1.6163 -  1.5541 [4748/4749]  4532   216   4.5%
+    bin 10:  1.5541 -  1.5004 [4295/4746]  4085   210   4.9%
+                                  overall 45458  2353   4.9%
+
+  Symmetric amino acids flipped
+    Residue "A PHE  137": "CD1" <-> "CD2" "CE1" <-> "CE2"
+  Time to flip residues: 0.00s
+
+  Monomer Library directory:
+    "/usr/local/phenix-1.20.1-4487/modules/chem_data/mon_lib"
+  Total number of atoms: 2908
+  Number of models: 1
+  Model: ""
+    Number of chains: 2
+    Chain: "A"
+      Number of atoms: 2449
+      Number of conformers: 2
+      Conformer: "A"
+        Number of residues, atoms: 305, 2360
+          Classifications: {'peptide': 305}
+          Modifications used: {'COO': 1}
+          Link IDs: {'PTRANS': 8, 'TRANS': 295, 'PCIS': 1}
+      Conformer: "B"
+        Number of residues, atoms: 305, 2360
+          Classifications: {'peptide': 305}
+          Modifications used: {'COO': 1}
+          Link IDs: {'PTRANS': 8, 'TRANS': 295, 'PCIS': 1}
+          bond proxies already assigned to first conformer: 2318
+    Chain: "A"
+      Number of atoms: 459
+      Number of conformers: 2
+      Conformer: "B"
+        Number of residues, atoms: 417, 428
+          Unknown residues: {'OK4': 1}
+          Unusual residues: {'SO4': 3}
+          Classifications: {'undetermined': 3, 'water': 413}
+          Link IDs: {None: 415}
+          Chain breaks: 1
+      Conformer: "A"
+        Number of residues, atoms: 415, 426
+          Unknown residues: {'OK4': 1}
+          Unusual residues: {'SO4': 3}
+          Classifications: {'undetermined': 3, 'water': 411}
+          Link IDs: {None: 413}
+          Chain breaks: 1
+          bond proxies already assigned to first conformer: 12
+  Residues with excluded nonbonded symmetry interactions: 17
+    residue:
+      pdb=" N  AGLU A  58 " occ=0.50
+      ... (16 atoms not shown)
+      pdb=" OE2BGLU A  58 " occ=0.50
+    residue:
+      pdb=" N  ALYS A  67 " occ=0.50
+      ... (16 atoms not shown)
+      pdb=" NZ BLYS A  67 " occ=0.50
+    residue:
+      pdb=" N  ASER A  84 " occ=0.50
+      ... (10 atoms not shown)
+      pdb=" OG BSER A  84 " occ=0.50
+    residue:
+      pdb=" N  ALEU A 125 " occ=0.50
+      ... (14 atoms not shown)
+      pdb=" CD2BLEU A 125 " occ=0.50
+    residue:
+      pdb=" N  AARG A 181 " occ=0.50
+      ... (20 atoms not shown)
+      pdb=" NH2BARG A 181 " occ=0.50
+    residue:
+      pdb=" N  AARG A 196 " occ=0.70
+      ... (20 atoms not shown)
+      pdb=" NH2BARG A 196 " occ=0.30
+    residue:
+      pdb=" N  ALYS A 256 " occ=0.50
+      ... (16 atoms not shown)
+      pdb=" NZ BLYS A 256 " occ=0.50
+    residue:
+      pdb=" N  AGLU A 322 " occ=0.50
+      ... (16 atoms not shown)
+      pdb=" OE2BGLU A 322 " occ=0.50
+    residue:
+      pdb=" N  AASN A 323 " occ=0.50
+      ... (14 atoms not shown)
+      pdb=" ND2BASN A 323 " occ=0.50
+    residue:
+      pdb=" N  ALYS A 331 " occ=0.50
+      ... (16 atoms not shown)
+      pdb=" NZ BLYS A 331 " occ=0.50
+    residue:
+      pdb=" O1  SO4 A 402 " occ=0.90
+      ... (3 atoms not shown)
+      pdb=" S   SO4 A 402 " occ=0.90
+    residue:
+      pdb=" O1  SO4 A 403 " occ=0.90
+      ... (3 atoms not shown)
+      pdb=" S   SO4 A 403 " occ=0.90
+    ... (remaining 5 not shown)
+  Number of atoms with unknown nonbonded energy type symbols: 30
+    "HETATM 2450  C01 OK4 A 401 .*.     C  "
+    "HETATM 2451  C02 OK4 A 401 .*.     C  "
+    "HETATM 2452  C03 OK4 A 401 .*.     C  "
+    "HETATM 2453  C04 OK4 A 401 .*.     C  "
+    "HETATM 2454  C06 OK4 A 401 .*.     C  "
+    "HETATM 2455  C08 OK4 A 401 .*.     C  "
+    "HETATM 2456  C09 OK4 A 401 .*.     C  "
+    "HETATM 2457  C10 OK4 A 401 .*.     C  "
+    "HETATM 2458  C11 OK4 A 401 .*.     C  "
+    "HETATM 2459  C12 OK4 A 401 .*.     C  "
+    ... (remaining 20 not shown)
+  Time building chain proxies: 0.90, per 1000 atoms: 0.31
+  Number of scatterers: 2908
+  At special positions: 0
+  Unit cell: (46.698, 65.24, 97.195, 90, 90, 90)
+  Space group: P 21 21 21 (No. 19)
+  Number of sites at special positions: 0
+  Number of scattering types: 4
+    Type Number    sf(0)
+     S      13     16.00
+     O     900      8.00
+     N     420      7.00
+     C    1575      6.00
+    sf(0) = scattering factor at diffraction angle 0.

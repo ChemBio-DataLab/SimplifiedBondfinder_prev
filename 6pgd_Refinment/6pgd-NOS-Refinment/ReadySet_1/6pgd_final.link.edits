@@ -1,0 +1,41 @@
+
+refinement.geometry_restraints.edits {
+  bond {
+    action = *add
+    atom_selection_1 = name  N   and chain A and resseq   30
+    atom_selection_2 = name  O   and chain B and resseq    1
+    distance_ideal = 1.440
+    sigma = 0.010
+  }
+}
+
+refinement.geometry_restraints.edits {
+  bond {
+    action = *add
+    atom_selection_1 = name  O   and chain B and resseq    1
+    atom_selection_2 = name  SG  and chain A and resseq  334
+    distance_ideal = 1.691
+    sigma = 0.010
+  }
+}
+
+refinement.geometry_restraints.edits {
+  bond {
+    action = *add
+    atom_selection_1 = name  O   and chain A and resseq   30
+    atom_selection_2 = name  N   and chain A and resseq   30
+    distance_ideal = 2.45
+    sigma = 0.010
+  }
+}
+
+refinement.geometry_restraints.edits {
+  bond {
+    action = *add
+    atom_selection_1 = name  O   and chain A and resseq   30
+    atom_selection_2 = name  N   and chain A and resseq   32
+    distance_ideal = 3.09
+    sigma = 0.010
+  }
+}
+

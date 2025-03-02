@@ -1,0 +1,40 @@
+,6t3x_final.pdb
+Wavelength,
+Resolution range,41.28  - 1.479 (1.5  - 1.48)
+Space group,P 1 21 1
+Unit cell,37.27 82.57 63.66 90 95.1 90
+Total reflections,
+Unique reflections,62881 (1927)
+Multiplicity,
+Completeness (%),98.27 (90.94)
+Mean I/sigma(I),
+Wilson B-factor,21.05
+R-merge,
+R-meas,
+R-pim,
+CC1/2,
+CC*,
+Reflections used in refinement,62881 (1927)
+Reflections used for R-free,5102 (0)
+R-work,0.1881 (0.2869)
+R-free,0.2254 (1000000000.0000)
+CC(work),
+CC(free),
+Number of non-hydrogen atoms,3434
+  macromolecules,3236
+  ligands,0
+  solvent,198
+Protein residues,403
+Nucleic acid bases,
+RMS(bonds),0.011
+RMS(angles),1.28
+Ramachandran favored (%),99.23
+Ramachandran allowed (%),0.77
+Ramachandran outliers (%),0.00
+Rotamer outliers (%),1.34
+Clashscore,6.11
+Average B-factor,38.86
+  macromolecules,38.63
+  ligands,
+  solvent,42.60
+Number of TLS groups,
