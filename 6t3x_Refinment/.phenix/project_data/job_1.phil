@@ -1,0 +1,31 @@
+LIBTBX_BASE_DIR = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/Paper_Git/6t3x_Refinment"
+job {
+  job_id = 1
+  app_id = ReadySet
+  program_name = None
+  title = """[ phenix.ready_set ]"""
+  directory = "$(LIBTBX_BASE_DIR)/ReadySet_1"
+  process_type = None
+  hostname = None
+  queue_id = None
+  citation = None
+  input_file {
+    file_name = None
+    file_type = None
+    param_name = None
+  }
+  output_file {
+    file_name = "6t3xNOS-All_at_once_refine_4.link.edits"
+    file_type = Covalent links from LINK records
+  }
+  output_file {
+    file_name = "$(LIBTBX_BASE_DIR)/ReadySet_1/6t3xNOS-All_at_once_refine_4.updated.pdb"
+    file_type = Processed PDB file
+  }
+  statistic {
+    stat_name = None
+    stat_value = None
+  }
+  user_comments = None
+  deleted = False
+}

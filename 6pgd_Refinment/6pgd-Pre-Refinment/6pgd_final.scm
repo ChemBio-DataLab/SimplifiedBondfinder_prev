@@ -1,0 +1,23 @@
+; Guided tour for Coot written by PDB_REDO
+; Please cite: Joosten et al. 'PDB_REDO: constructive validation, more than just looking for errors' Acta Cryst., D68, 484-496 (2012)
+(interesting-things-gui "PDB_REDO results"
+(list
+   (list "H-bond flip ASN A 100 "  -4.142   12.918   10.041)
+   (list "H-bond flip ASN A 136 " -10.838    2.876    0.026)
+   (list "Changed rotamer LYS A 245 " -25.679    4.473  -19.297)
+   (list "Removed HOH A 524 " -14.396   -6.119   15.413)
+   (list "Removed HOH A 551 " -25.594  -10.116   -9.598)
+   (list "Removed HOH A 565 "  16.760   15.783    5.095)
+   (list "Removed HOH A 612 " -21.897  -13.665  -13.967)
+   (list "Removed HOH A 654 "   9.638   -3.445   11.906)
+   (list "Removed HOH A 668 " -12.613   13.894    5.987)
+   (list "Removed HOH A 686 " -27.998    2.510   -9.837)
+   (list "Removed HOH A 797 "   5.209    0.105   15.971)
+   (list "Removed HOH A 816 " -23.263  -14.211   -7.779)
+   (list "Removed HOH A 836 "   4.588    4.337  -26.105)
+   (list "Removed HOH A 842 " -15.423   -9.948  -20.487)
+   (list "Removed HOH A 848 " -30.513    6.256    0.571)
+   (list "Removed HOH A 860 " -23.884    8.658   -8.886)
+   (list "Removed HOH A 892 " -21.768  -15.183  -10.413)
+   (list "Removed HOH A 912 "  -2.230   23.158   -5.946)
+))

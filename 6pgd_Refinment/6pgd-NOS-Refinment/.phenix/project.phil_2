@@ -1,0 +1,20 @@
+project {
+  project_id = "6pgd-input"
+  directory = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/Paper_Git/6pgd_Refinment/6pgd-NOS-Refinment"
+  last_modified = 1740853340
+  job_count = 2
+  best_r_free = None
+  default_file {
+    file_name = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/Paper_Git/6pgd_Refinment/6pgd-NOS-Refinment/ReadySet_2/6pgd_final.updated.ligands.cif"
+    program_name = None
+    file_type = "cif"
+    file_description = "Geometry restraints"
+  }
+  sequence_file = None
+  user_comments = None
+  always_add_hydrogens = False
+  use_phaser_fast_mode = False
+  citation = None
+  group_id = None
+  cached_output_dir = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/Paper_Git/6pgd_Refinment/6pgd-NOS-Refinment"
+}

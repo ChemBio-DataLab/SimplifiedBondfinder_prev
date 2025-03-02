@@ -1,0 +1,7 @@
+Äcmmtbx.command_line.table_one
+launcher
+q)Åq}q(Ulog_fileqUì/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3g2k/manual-refine/Step0_just_refine/Data/.phenix/project_data/table_one_1.logU
+output_dirqUw/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3g2k/manual-refine/Step0_just_refine/Data/table1_1qU_outqNU	file_nameqUì/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3g2k/manual-refine/Step0_just_refine/Data/.phenix/project_data/table_one_1.pklUargsq	]q
+Uì/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3g2k/manual-refine/Step0_just_refine/Data/.phenix/project_data/table_one_1.effqaUstring_typesqc__builtin__
+basestring
+qÖqU	job_titleqNub.

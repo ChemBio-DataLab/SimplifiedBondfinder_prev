@@ -1,0 +1,17 @@
+LIBTBX_BASE_DIR = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3g2k/manual-refine/Step0_just_refine/Data"
+job_summary {
+  job_id = 1
+  app_id = TableOne
+  program_name = phenix.table_one
+  program_args = /home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3g2k/manual-refine/Step0_just_refine/Data/.phenix/project_data/table_one_1.eff
+  config_file = "$(LIBTBX_BASE_DIR)/.phenix/project_data/table_one_1.eff"
+  title = """3g2k-Step0"""
+  time_started = 1740769185.7
+  time_finished = None
+  result_directory = "$(LIBTBX_BASE_DIR)/table1_1"
+  status = *started failed aborted complete deleted
+  user_flagged = False
+  r_free = None
+  process_type = 1
+  applet = False
+}

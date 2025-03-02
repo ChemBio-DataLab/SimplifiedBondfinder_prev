@@ -1,0 +1,34 @@
+                                6t3x_Step0_again_refine_1.pdb
+                    Wavelength                               
+              Resolution range   41.28  - 1.479 (1.5  - 1.48)
+                   Space group                       P 1 21 1
+                     Unit cell   37.27 82.57 63.66 90 95.1 90
+             Total reflections                               
+            Unique reflections                   62871 (1929)
+                  Multiplicity                               
+              Completeness (%)                  98.25 (91.03)
+               Mean I/sigma(I)                               
+               Wilson B-factor                          21.07
+                       R-merge                               
+                        R-meas                               
+                         R-pim                               
+                         CC1/2                               
+Reflections used in refinement                   62871 (1929)
+   Reflections used for R-free                       5103 (0)
+                        R-work                0.2218 (0.2821)
+                        R-free       0.2586 (1000000000.0000)
+  Number of non-hydrogen atoms                           3434
+                macromolecules                           3236
+                       ligands                              0
+                       solvent                            198
+              Protein residues                            403
+                    RMS(bonds)                          0.006
+                   RMS(angles)                           0.79
+      Ramachandran favored (%)                          98.97
+      Ramachandran allowed (%)                           1.03
+     Ramachandran outliers (%)                           0.00
+          Rotamer outliers (%)                           1.34
+                    Clashscore                           3.82
+              Average B-factor                          37.94
+                macromolecules                          38.01
+                       solvent                          36.66

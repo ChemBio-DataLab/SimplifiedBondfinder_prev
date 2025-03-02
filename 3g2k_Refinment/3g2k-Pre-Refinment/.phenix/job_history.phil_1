@@ -1,0 +1,18 @@
+LIBTBX_BASE_DIR = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3g2k/manual-refine/Step0_just_refine"
+job_summary {
+  job_id = 1
+  app_id = Refine
+  program_name = phenix.refine
+  program_args = /home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3g2k/manual-refine/Step0_just_refine/.phenix/project_data/refine_1.eff \
+                 --overwrite
+  config_file = "$(LIBTBX_BASE_DIR)/.phenix/project_data/refine_1.eff"
+  title = """[ phenix.refine ]"""
+  time_started = 1733333859.5
+  time_finished = None
+  result_directory = "$(LIBTBX_BASE_DIR)/Refine_1"
+  status = *started failed aborted complete deleted
+  user_flagged = False
+  r_free = None
+  process_type = 0
+  applet = False
+}

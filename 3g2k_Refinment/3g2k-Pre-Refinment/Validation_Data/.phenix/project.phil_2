@@ -1,0 +1,20 @@
+project {
+  project_id = "3g2k-Step0"
+  directory = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3g2k/manual-refine/Step0_just_refine/Data"
+  last_modified = 1740769216
+  job_count = 1
+  best_r_free = None
+  default_file {
+    file_name = None
+    program_name = None
+    file_type = None
+    file_description = None
+  }
+  sequence_file = None
+  user_comments = None
+  always_add_hydrogens = False
+  use_phaser_fast_mode = False
+  citation = None
+  group_id = None
+  cached_output_dir = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3g2k/manual-refine/Step0_just_refine/Data"
+}

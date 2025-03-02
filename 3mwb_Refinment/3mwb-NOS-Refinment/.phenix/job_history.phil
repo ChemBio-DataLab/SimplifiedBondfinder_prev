@@ -1,0 +1,34 @@
+LIBTBX_BASE_DIR = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/Paper_Git/3mwb_Refinment/3mwb-NOS-Refinment"
+job_summary {
+  job_id = 1
+  app_id = "ReadySet"
+  program_name = "phenix.ready_set"
+  program_args = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/Paper_Git/3mwb_Refinment/3mwb-NOS-Refinment/.phenix/project_data/ready_set_1.eff"
+  config_file = "$(LIBTBX_BASE_DIR)/.phenix/project_data/ready_set_1.eff"
+  title = "[ phenix.ready_set ]"
+  time_started = 1740844218
+  time_finished = 1740844239
+  result_directory = "$(LIBTBX_BASE_DIR)/ReadySet_1"
+  status = started failed aborted *complete deleted
+  user_flagged = False
+  r_free = None
+  process_type = 0
+  applet = False
+}
+job_summary {
+  job_id = 2
+  app_id = "Refine"
+  program_name = "phenix.refine"
+  program_args = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/Paper_Git/3mwb_Refinment/3mwb-NOS-Refinment/.phenix/project_data/refine_2.eff" \
+                 "--overwrite"
+  config_file = "$(LIBTBX_BASE_DIR)/.phenix/project_data/refine_2.eff"
+  title = "[ phenix.refine ]"
+  time_started = 1740844335
+  time_finished = 1740845296
+  result_directory = "$(LIBTBX_BASE_DIR)/Refine_2"
+  status = started failed aborted *complete deleted
+  user_flagged = False
+  r_free = 0.2329
+  process_type = 0
+  applet = False
+}

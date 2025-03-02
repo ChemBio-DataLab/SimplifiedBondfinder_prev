@@ -1,0 +1,48 @@
+
+#Final effective parameters:
+table_one {
+  structure {
+    name = "3g2k-Step0"
+    pdb_file = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3g2k/manual-refine/Step0_just_refine/Data/Step0_just_refine_refine_1.pdb"
+    mtz_file = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3g2k/manual-refine/Step0_just_refine/Data/Step0_just_refine_refine_1.mtz"
+    data_labels = "F-obs,SIGF-obs"
+    r_free_flags_label = "R-free-flags"
+    wavelength = None
+    cif_file = None
+    cif_directory = None
+    data_type = *xray neutron
+    unmerged_data = None
+    unmerged_labels = None
+    use_internal_variance = False
+    count_anomalous_pairs_separately = False
+    enable_twinning = False
+    twin_law = Auto
+  }
+  processing {
+    re_compute_r_factors = True
+    n_bins = 10
+    ligand_selection = None
+  }
+  multiprocessing {
+    nproc = 8
+    technology = *multiprocessing sge lsf pbs condor slurm
+    qsub_command = None
+  }
+  output {
+    directory = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3g2k/manual-refine/Step0_just_refine/Data"
+    job_title = "3g2k-Step0"
+    show_missing_fields = True
+    format = *txt *csv *rtf
+    base_name = "Table1"
+    verbose = "True"
+    text_field_separation = 2
+  }
+}
+#---end
+
+
+===================== Running data analysis and validation ====================
+
+
+Collecting stats for structure 3g2k-Step0
+Using re-computed R-factors

@@ -1,0 +1,32 @@
+
+
+refinement.geometry_restraints.edits {
+  bond {
+    action = *add
+    atom_selection_1 = name  O   and chain C and resseq    1
+    atom_selection_2 = name  NH1 and chain B and resseq   43
+    distance_ideal = 1.42
+    sigma = 0.010
+  }
+}
+
+refinement.geometry_restraints.edits {
+  bond {
+    action = *add
+    atom_selection_1 = name  O   and chain C and resseq    1
+    atom_selection_2 = name  SG  and chain B and resseq   34
+    distance_ideal = 1.707
+    sigma = 0.010
+  }
+}
+
+refinement.geometry_restraints.edits {
+  angle {
+    action = *add
+    atom_selection_1 = name  NH1 and chain B and resseq   43
+    atom_selection_2 = name  O   and chain C and resseq    1
+    atom_selection_3 = name  SG  and chain B and resseq   34
+    angle_ideal = 114.709
+    sigma = 1.000
+  }
+}

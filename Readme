@@ -1,0 +1,8 @@
+This folder contains the refinement of the NOS linkage for four protein structures: 6PGD, 6T3X, 3MWB, and 3G2K.
+
+Each protein ID has its own subfolder, which includes the following:
+
+    xxxx-NOS-Refinement – Contains the refined structure with the NOS linkage and validation data.
+    xxxx-Pre-Refinement – Automated refinement and validation data for the corresponding PDB ID (xxxx.pdb and xxxx.mtz from PDB_REDO). This step runs 10 cycles of phenix.refine on the input data.
+    Original_pdb – Contains validation statistics from PDB_REDO for the original PDB structures.
+    Simulated_Annealing – Includes 10 cycles of simulated annealing refinement using phenix.refine for the PDB structures from PDB_REDO.

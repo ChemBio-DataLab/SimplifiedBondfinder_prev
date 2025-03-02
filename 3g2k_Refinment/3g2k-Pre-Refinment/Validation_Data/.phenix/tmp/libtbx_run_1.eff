@@ -1,0 +1,8 @@
+run_file = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3g2k/manual-refine/Step0_just_refine/Data/.phenix/tmp/libtbx_run_1.pkl"
+prefix = "1"
+output_dir = None
+tmp_dir = "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/3g2k/manual-refine/Step0_just_refine/Data/.phenix/tmp"
+debug = False
+timeout = 200
+buffer_stdout = False
+fsync = True

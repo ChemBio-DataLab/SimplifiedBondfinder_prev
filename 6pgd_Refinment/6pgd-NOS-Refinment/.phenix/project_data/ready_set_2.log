@@ -1,0 +1,26 @@
+
+  INPUT
+  
+    Reading options from /home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/Paper_Git/6pgd_Refinment/6pgd-NOS-Refinment/.phenix/project_data/ready_set_2.eff
+    Writing effective parameters to 6pgd_final.updated.eff
+    Reading ligand cache from environmental variable
+      READY_SET_LIGAND_CACHE_DIRECTORY
+        - "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/Paper_Git/6pgd_Refinment/6pgd-NOS-Refinment/.phenix/tmp"
+
+  Preparation for phenix.refine
+
+    Add hydrogens
+      - to protein model using phenix.reduce
+      - to ligands using eLBOW, phenix.elbow
+
+  Build ligand and use user provided restraints : OK4
+
+  User defined restraints for OK4 added to output restraints
+
+  OUTPUT
+  
+    Writing model to 6pgd_final.updated.updated.pdb
+    Writing restraints to 6pgd_final.updated.ligands.cif
+      OK4
+Optimize H/D positions using phenix.geometry_minimization
+phenix.geometry_minimization "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/Paper_Git/6pgd_Refinment/6pgd-NOS-Refinment/ReadySet_2/6pgd_final.updated.updated.pdb" "/home_val/sbazzi/Beyond_lys_cys/Backbone/Revise1_Comm_Chem/Refinemnt/Paper_Git/6pgd_Refinment/6pgd-NOS-Refinment/ReadySet_2/6pgd_final.updated.ligands.cif" use_neutron_distances=False output_file_name_prefix=6pgd_final.updated.updated selection="element H or element D" write_geo_file=False fix_rotamer_outliers=False silent=True correct_hydrogens=True
