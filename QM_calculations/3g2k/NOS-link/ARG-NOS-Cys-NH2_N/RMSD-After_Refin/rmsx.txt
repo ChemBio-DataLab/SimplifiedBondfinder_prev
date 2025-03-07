@@ -1,0 +1,7 @@
+Refined structure parsed: 18 atoms.
+Optimized structure parsed: 18 atoms.
+Aligned structure has been written to aligned_QM-optimized.gjf
+Aligned structure has been written to aligned_QM-optimized.xyz
+Refined structure has been written to After_Refine-NoH.xyz
+
+Overall RMSD: 0.2773 Å
