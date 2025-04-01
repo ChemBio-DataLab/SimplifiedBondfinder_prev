@@ -1,6 +1,6 @@
 # SimplifiedBondfinder
 
-<img align="left" width="100" height="100" src="https://github.com/ChemBio-DataLab/SimplifiedBondfinder/blob/main/Logo.png">
+<img align="left" width="100" height="100" src="https://github.com/ChemBio-DataLab/SimplifiedBondfinder_prev/blob/main/Logo.png">
 
 **simplifiedBondfinder** is an automated framework for classifying and discovering various bonds and interactions in protein structures.
 
@@ -12,7 +12,7 @@
 ## Workflow
 
 Here is the workflow of the `simplifiedBondfinder`
-![Workflow](https://github.com/ChemBio-DataLab/SimplifiedBondfinder/blob/main/NOS_overview.png)
+![Workflow](https://github.com/ChemBio-DataLab/SimplifiedBondfinder_prev/blob/main/NOS_overview.png)
 
 
  ## Structure of the repository
