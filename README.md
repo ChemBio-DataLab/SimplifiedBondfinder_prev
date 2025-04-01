@@ -15,6 +15,7 @@ Here is the workflow of the `simplifiedBondfinder`
 ![Workflow](https://github.com/ChemBio-DataLab/SimplifiedBondfinder_prev/blob/main/NOS_overview.png)
 
 
+
  ## Structure of the repository
 
 It comprises data acquisition, feature extraction, and machine-learning analysis. 
